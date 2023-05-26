@@ -36,7 +36,7 @@ async def hello(inter):
   await inter.response.send_message(f'Comnado fumfando {inter}', view=Menu())
 
 @fml.command()
-async def calça(ctx, cal):
+async def calc(ctx, cal):
   x = eval(cal)
   await ctx.send(f'O cálculo é: {cal} = {x}')
 
