@@ -35,4 +35,9 @@ class Menu(disnake.ui.View):
 async def hello(inter):
   await inter.response.send_message(f'Comnado fumfando {inter}', view=Menu())
 
+@fml.command()
+async def calça(ctx, cal):
+  x = eval(cal)
+  await ctx.send(f'O cálculo é: {cal} = {x}')
+
 fml.run(token)
