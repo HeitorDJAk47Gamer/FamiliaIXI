@@ -1,11 +1,4 @@
-import os
-import json
-import disnake
-import json
-import asyncio
-import datetime
-import os
-import random
+import os, json, disnake, asyncio, random, datetime
 from disnake.ext import commands
 from disnake.ui import Select, View
 
